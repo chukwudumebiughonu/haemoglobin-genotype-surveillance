@@ -1,0 +1,16 @@
+Variable_1,Variable_2,Pearson_r,p_value,Significant_at_0.05
+Year,Genotype_Severity,-0.5434,0.1045,False
+Year,Clinical_Severity,-0.4318,0.2127,False
+Year,Male_Proportion,0.1538,0.6715,False
+Year,Carrier_Rate,-0.3606,0.306,False
+Year,Disease_Rate,-0.2697,0.4512,False
+Genotype_Severity,Clinical_Severity,0.9731,0.0,True
+Genotype_Severity,Male_Proportion,-0.3956,0.2578,False
+Genotype_Severity,Carrier_Rate,0.9056,0.0003,True
+Genotype_Severity,Disease_Rate,0.2882,0.4194,False
+Clinical_Severity,Male_Proportion,-0.501,0.1402,False
+Clinical_Severity,Carrier_Rate,0.9585,0.0,True
+Clinical_Severity,Disease_Rate,0.2002,0.5791,False
+Male_Proportion,Carrier_Rate,-0.5293,0.1156,False
+Male_Proportion,Disease_Rate,0.0686,0.8507,False
+Carrier_Rate,Disease_Rate,-0.0873,0.8104,False
