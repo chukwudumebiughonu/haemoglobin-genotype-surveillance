@@ -1,0 +1,3 @@
+Test,Chi_square_statistic,Degrees_of_freedom,p_value,Significant_at_0.05,Conclusion
+Sex x Genotype,1.4864,5,0.9146,False,No statistically significant association found
+Sex x Clinical Category,0.3891,2,0.8232,False,No statistically significant association found

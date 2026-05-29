@@ -1,0 +1,7 @@
+Category,Slope_pp_per_year,R_squared,p_value,Significant_at_0.05
+HbAA,0.3086,0.1607,0.251,False
+HbAS,-0.1744,0.0565,0.5085,False
+HbAC,-0.1042,0.2742,0.1203,False
+Carrier (HbAS+HbAC),-0.278,0.1299,0.3063,False
+Disease (HbSS+HbSC+HbCC),-0.0301,0.071,0.4568,False
+Normal (HbAA),0.3086,0.1607,0.251,False
