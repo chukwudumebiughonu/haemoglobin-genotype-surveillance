@@ -1,0 +1,39 @@
+# Data Dictionary
+
+## `data/processed/processed_genotype_data.csv`
+
+The cleaned analytical dataset. One row per screened student. 8,890 rows, 5 columns.
+This file is the authoritative input to all notebooks.
+
+| Column | Type | Description | Permitted values |
+|---|---|---|---|
+| `ID` | string | De-identified student identifier assigned during cleaning. Carries no personal information. | e.g. `D-0001`. 8,796 unique values; a small number of identifiers recur across separate screening years. |
+| `Sex` | string | Recorded sex. | `F`, `M` |
+| `Genotype` | string | Haemoglobin genotype deduced from cellulose acetate electrophoresis. | `AA`, `AS`, `AC`, `SS`, `SC`, `CC` |
+| `Year` | integer | Calendar year of the screening record. | `2015`–`2024` |
+| `Clinical_Category` | string | Clinical grouping derived from `Genotype`. | `Normal` (HbAA); `Carrier` (HbAS, HbAC); `Disease` (HbSS, HbSC, HbCC) |
+
+### Derivation of `Clinical_Category`
+
+```
+Normal   <- {AA}
+Carrier  <- {AS, AC}
+Disease  <- {SS, SC, CC}
+```
+
+### Notes
+
+- The dataset contains no age, weight, height, or college field. Where the manuscript
+  reports sociodemographic statistics (for example mean age), those derive from the raw
+  screening exports in `data/raw/` rather than from this processed file. See
+  `docs/DATA_QUALITY_LOG.md` for the cleaning provenance.
+- Records per year: 2015 (1,020), 2016 (250), 2017 (311), 2018 (923), 2019 (764),
+  2020 (749), 2021 (849), 2022 (1,339), 2023 (1,253), 2024 (1,432). Total 8,890.
+
+## `data/raw/`
+
+Original yearly screening exports, retained for provenance and to demonstrate dataset
+validity. Each year was exported in a different layout (varying header rows, merged
+cells, and stray spreadsheet artifacts), which is why a dedicated cleaning step produces
+the standardized analytical dataset above. The 2023 intake is additionally provided as
+`2023 new students genotype.xlsx`.

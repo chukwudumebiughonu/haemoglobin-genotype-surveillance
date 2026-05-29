@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or dataset, please cite the associated publication."
+title: "Ten-Year Haemoglobin Genotype Surveillance in a Nigerian University Cohort"
+authors:
+  - family-names: Adeleke
+    given-names: Thomas Olumide
+  - family-names: Ughonu
+    given-names: Chukwudumebi Placid
+  - family-names: Agelebe
+    given-names: Efeturi
+  - family-names: Adeleke
+    given-names: Oludamola Victoria
+  - family-names: Dosumu
+    given-names: Taiwo Omotayo
+  - family-names: Ajala
+    given-names: Dolapo Emmanuel
+  - family-names: Ayenigba
+    given-names: Bayonle
+  - family-names: Adegoke
+    given-names: Samuel Ademola
+  - family-names: Slusher
+    given-names: Tina M.
+  - family-names: Boucher
+    given-names: Alexander A.
+preferred-citation:
+  type: article
+  title: "Temporal Patterns of Haemoglobin Genotypes in Nigeria: A Ten-Year Analysis of a University Haemoglobin Genotype Surveillance Data"
+  journal: "Scientific Reports"
+  year: 2026
+  doi: "TO-BE-INSERTED"
