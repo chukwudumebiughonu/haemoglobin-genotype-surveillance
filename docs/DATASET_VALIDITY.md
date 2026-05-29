@@ -7,7 +7,7 @@ editorial requirement that the validity of the datasets used in the study be
 demonstrated and the access links provided.
 
 **Repository:** https://github.com/chukwudumebiughonu/haemoglobin-genotype-surveillance
-**Archived release (DOI):** https://doi.org/10.5281/zenodo.20445528
+**Archived release (DOI):** [https://doi.org/10.5281/zenodo.20445528](https://doi.org/10.5281/zenodo.20451392)
 
 ---
 
