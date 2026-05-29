@@ -7,7 +7,7 @@ running the notebook sequence (01 → 06) from a clean kernel against the analyt
 dataset `data/processed/processed_genotype_data.csv`.
 
 **Repository:** https://github.com/chukwudumebiughonu/haemoglobin-genotype-surveillance
-**Archived snapshot (DOI):** https://doi.org/10.5281/zenodo.20445528
+**Archived snapshot (DOI):** [https://doi.org/10.5281/zenodo.20445528](https://doi.org/10.5281/zenodo.20451392)
 
 ---
 
