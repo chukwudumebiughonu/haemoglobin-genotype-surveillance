@@ -1,0 +1,11 @@
+Year,Cluster,Cluster_Label,Carrier_Rate,Disease_Rate,Male_Rate
+2015,3,High-burden,24.41,1.37,38.92
+2016,3,High-burden,28.4,1.2,33.6
+2017,2,Transition,20.9,1.29,58.52
+2018,3,High-burden,26.65,1.63,42.36
+2019,2,Transition,21.6,1.57,38.48
+2020,1,Stabilisation,24.3,0.53,39.92
+2021,2,Transition,22.14,1.18,35.69
+2022,1,Stabilisation,23.9,0.82,44.14
+2023,1,Stabilisation,24.26,1.04,44.21
+2024,2,Transition,22.07,1.47,47.28

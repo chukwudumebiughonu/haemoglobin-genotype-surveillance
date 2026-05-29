@@ -1,0 +1,4 @@
+Cluster,Label,Years,n_years,Mean_Carrier_Rate,Mean_Disease_Rate,Mean_Male_Rate
+1,Stabilisation,"2020, 2022, 2023",3,24.15,0.8,42.76
+2,Transition,"2017, 2019, 2021, 2024",4,21.68,1.38,44.99
+3,High-burden,"2015, 2016, 2018",3,26.49,1.4,38.29
