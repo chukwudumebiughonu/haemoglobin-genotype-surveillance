@@ -6,7 +6,7 @@ The study quantifies disease and carrier burden, tests for temporal trends, and 
 unsupervised learning to identify distinct epidemiological periods across the decade.
 
 > **Status:** Manuscript accepted pending production requirements at *Scientific Reports*.
-> Code and data archived with a DOI (see [Data and code availability](#data-and-code-availability)).
+> Code and data archived with a DOI (see [Data and code availability](https://doi.org/10.5281/zenodo.20451392)).
 
 ## Key findings
 
